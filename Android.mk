@@ -16,6 +16,7 @@ LOCAL_EXPORT_C_INCLUDE_DIRS := \
         $(LOCAL_PATH)/include
 
 LOCAL_CFLAGS := \
+        -Wno-error \
         -Wno-multichar \
 	-DLIBICONV_PLUG \
         -DBUILDING_LIBICONV \
